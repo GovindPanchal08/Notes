@@ -20,8 +20,6 @@ btn.addEventListener("click",()=>{
     inputbox.setAttribute("contenteditable" , "true")
     img.src = "trash-can-solid.svg";
     notescon.appendChild(inputbox).appendChild(img);
-    
-   
 })
 notescon.addEventListener("click",function(e){
     if(e.target.tagName === "IMG"){
